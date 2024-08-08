@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  height: 60vh;
+  width: 30vw;
+}
+
+.about-overall-container{
+  background: black linear-gradient(rgba(0,0,0,9), (0,0,0,9)), url('./images/imageThree.jpg') no repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.contact-overall-container{
+  height: 30vh;
+}
+
+.coloured{
+  height: 30vh;
+  width: 40vw;
+}
+
+.white{
+  height: 30vh;
+  width: 60vw;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+li{
+  list-style-type: none;
+}
